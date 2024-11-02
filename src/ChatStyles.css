@@ -1,0 +1,124 @@
+/* ChatStyles.css */
+
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #e5ddd5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chat-header {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #075e54;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .message-list {
+    overflow-y: hidden; /* Disable vertical scrolling */
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .message {
+    padding: 8px 12px;
+    border-radius: 18px;
+    max-width: 80%;
+    position: relative;
+    font-size: 0.9rem;
+    word-wrap: break-word;
+  }
+  
+  .message.mentor {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+  }
+  
+  .message.mentee {
+    background-color: #ffffff;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
+  }
+  
+  .message strong {
+    font-weight: bold;
+    color: #075e54;
+  }
+  
+  .message img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .message a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .message em {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 5px;
+    position: absolute;
+    bottom: -18px;
+    right: 8px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 18px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 18px;
+    background-color: #075e54;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  button:hover {
+    background-color: #128c7e;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  label.file-label {
+    padding: 8px 12px;
+    border-radius: 18px;
+    background-color: #075e54;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
