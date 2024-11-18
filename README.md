@@ -15,8 +15,6 @@
 
 <h2>Getting Started</h2>
 <ol>
-    <li>Clone the repository:</li>
- 
     <li>Navigate to the project directory:</li>
     <pre><code>cd MentorMenteeChatApp</code></pre>
     <li>Install dependencies:</li>
