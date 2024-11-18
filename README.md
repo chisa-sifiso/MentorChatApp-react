@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mentor-Mentee Chat Application</title>
-</head>
+
 <body>
 
 <h1>Mentor-Mentee Chat Application</h1>
@@ -22,7 +16,7 @@
 <h2>Getting Started</h2>
 <ol>
     <li>Clone the repository:</li>
-    <pre><code>git clone https://github.com/yourusername/MentorMenteeChatApp.git</code></pre>
+ 
     <li>Navigate to the project directory:</li>
     <pre><code>cd MentorMenteeChatApp</code></pre>
     <li>Install dependencies:</li>
