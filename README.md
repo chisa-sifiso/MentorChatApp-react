@@ -44,4 +44,5 @@
 <p>This project is licensed under the MIT License.</p>
 
 </body>
+<h3>Developed by Sfiso Vinjwa</h3>
 </html>
